@@ -1,3 +1,0 @@
-////////////////////////////
-let namest="adil";
-console.log(namest);

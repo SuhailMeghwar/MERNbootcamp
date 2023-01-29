@@ -1,66 +1,48 @@
-/// while loop 
+//forloop
+//counter initialize;condition;countermanage
+// let our_data="querty";
+// for(let index=0;index<our_data.length;index++){
 
-// condition -- start-stop 
-// variable -- measure -- counter 
-// bosy of loop 
-
-let toffies= "qwerty";
-let reversed_toffies="";
-let count=toffies.length-1;
-while (count>=0) {
-    reversed_toffies+=toffies[count];
-
-    if(toffies[count] == 'w'){
-        break
-    }
-    count--;
-}
-console.log(reversed_toffies);
-
-count=toffies.length-1;
-reversed_toffies="";
-while (count>=0) {
-    let a = 1;
-    reversed_toffies+=toffies[count];
-
-    if(toffies[count] == 'w'){
-        count--;
-        continue
-    }
-    count--
-}
-// a = a+ 1;
-// console.log(a = a+ 1);
-
-
-// for loops
-let our_data= [0,2,3,4,67,35,786];
-let sum = 0;
-// counter initialize; conditio; counter manage
-for (let index = 0; index < our_data.length; index++) {
-    //index = 0  // variable shadowing
-    for (let index = 0; index < our_data.length; index++) {
-        // index = 0
-        if (our_data[index] % 2 != 0)
-        {
-            break
-        }
-
-        sum = sum + our_data[index];
-    }
-}
-
-let numbers = "1234567890"
-// for(let index = 0; index<numbers.length; index++){
-//     let value = numbers[index]
 // }
+//aik arry h  us ka even number ka sum krna h
+// let valu=[1,2,3,4,5,6,7,8,9];
 
-// for of loop
-for (let letter of numbers) {
-    if (letter % 2 == 0) {
-        //even
+// for(let i=0;i<=valu.length;i++){
+//     let sum=1;
+// console.log(i);
+// if (valu[i]%2==0){
+// sum=sum+valu[i];
+// }
+// console.log(sum);
+// }
+// vaariable shdowing
+//for of loop?
+// string will be uppercase
+// key will be +2,+5
+// program should return decrypted text
+// let string_Alpha="abcdefghijklmnop";
+// let name1="adilAli";
+// let char="";
+// for(let newval of name1){
+//     for(let i=0;i<string_Alpha.length;i++){
+//         if(newval==string_Alpha[i]){
+//          char +=string_Alpha[i + 5] ;
+//         }
+// }
+// }
+// console.log(char)
+let  string_val='abcdefghijklmnopqrstuvwxyz';
+let nameSt="adilaliz";
+let cypher="";
+for(let newVal of nameSt){
+    for(let i=0;i<string_val.length;i++){
+        if(newVal==string_val[i]){
+cypher+=string_val[i+5];
+
+        }
     }
-    console.log(letter);
 }
+console.log(cypher);
 
 
+let 

@@ -10,3 +10,9 @@
 //.8. return index where an element occured
 
 // Additinal :- print resultant arrays for 2, 7 by calling fucntion written in 1.
+
+let sum = (a,b) => a+b;
+
+module.exports = {sum}
+
+export{sum}

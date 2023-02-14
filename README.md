@@ -14,8 +14,9 @@ clone this repo
 ###### Rules for contributing to this repo:
 ```
 make branch from main branch using
-   - git checkout branchname main OR git checkout branchname
+   - git checkout -b branchname main OR git checkout branchname
    - commit and push changes to your newly created branch
+   - git checkout branchname (to switch or confirm your working branch)
     - git add .
     - git commit -m "your commit"
     - git push origin branchname

@@ -1,10 +1,10 @@
-export const countriesData =[ 
+export const countriesData = [
   {
     name: 'Afghanistan',
     capital: 'Kabul',
     languages: ['Pashto', 'Uzbek', 'Turkmen'],
     population: 27657145,
-    flag: 'https://mainfacts.com/media/images/coats_of_arms/af.png',
+    flag: 'https://restcountries.eu/data/afg.svg',
     currency: 'Afghan afghani',
   },
   {
@@ -12,7 +12,7 @@ export const countriesData =[
     capital: 'Mariehamn',
     languages: ['Swedish'],
     population: 28875,
-    flag: 'https://flagcdn.com/w320/nz.png',
+    flag: 'https://restcountries.eu/data/ala.svg',
     currency: 'Euro',
   },
   {
@@ -20,7 +20,7 @@ export const countriesData =[
     capital: 'Tirana',
     languages: ['Albanian'],
     population: 2886026,
-    flag: 'https://flagcdn.com/w320/al.png',
+    flag: 'https://restcountries.eu/data/alb.svg',
     currency: 'Albanian lek',
   },
   {
@@ -28,7 +28,7 @@ export const countriesData =[
     capital: 'Algiers',
     languages: ['Arabic'],
     population: 40400000,
-    flag: 'https://flagcdn.com/w320/dz.png',
+    flag: 'https://restcountries.eu/data/dza.svg',
     currency: 'Algerian dinar',
   },
   {
@@ -36,7 +36,7 @@ export const countriesData =[
     capital: 'Pago Pago',
     languages: ['English', 'Samoan'],
     population: 57100,
-    flag: 'https://flagcdn.com/w320/as.png',
+    flag: 'https://restcountries.eu/data/asm.svg',
     currency: 'United State Dollar',
   },
   {
@@ -44,7 +44,7 @@ export const countriesData =[
     capital: 'Andorra la Vella',
     languages: ['Catalan'],
     population: 78014,
-    flag: 'https://flagcdn.com/w320/an.png',
+    flag: 'https://restcountries.eu/data/and.svg',
     currency: 'Euro',
   },
   {
@@ -52,7 +52,7 @@ export const countriesData =[
     capital: 'Luanda',
     languages: ['Portuguese'],
     population: 25868000,
-    flag: 'https://flagcdn.com/w320/ag.png',
+    flag: 'https://restcountries.eu/data/ago.svg',
     currency: 'Angolan kwanza',
   },
   {
@@ -60,7 +60,7 @@ export const countriesData =[
     capital: 'The Valley',
     languages: ['English'],
     population: 13452,
-    flag: 'https://flagcdn.com/w320/ai.png',
+    flag: 'https://restcountries.eu/data/aia.svg',
     currency: 'East Caribbean dollar',
   },
   {
@@ -68,7 +68,7 @@ export const countriesData =[
     capital: '',
     languages: ['English', 'Russian'],
     population: 1000,
-    flag: 'https://flagcdn.com/w320/at.png',
+    flag: 'https://restcountries.eu/data/ata.svg',
     currency: 'Australian dollar',
   },
   {
@@ -76,7 +76,7 @@ export const countriesData =[
     capital: "Saint John's",
     languages: ['English'],
     population: 86295,
-    flag: 'https://flagcdn.com/w320/at.png',
+    flag: 'https://restcountries.eu/data/atg.svg',
     currency: 'East Caribbean dollar',
   },
   {
@@ -84,7 +84,7 @@ export const countriesData =[
     capital: 'Buenos Aires',
     languages: ['Spanish', 'Guaraní'],
     population: 43590400,
-    flag: 'https://flagcdn.com/w320/ar.png',
+    flag: 'https://restcountries.eu/data/arg.svg',
     currency: 'Argentine peso',
   },
   {
@@ -92,7 +92,7 @@ export const countriesData =[
     capital: 'Yerevan',
     languages: ['Armenian', 'Russian'],
     population: 2994400,
-    flag: 'https://flagcdn.com/w320/r.png',
+    flag: 'https://restcountries.eu/data/arm.svg',
     currency: 'Armenian dram',
   },
   {
@@ -100,7 +100,7 @@ export const countriesData =[
     capital: 'Oranjestad',
     languages: ['Dutch', '(Eastern) Punjabi'],
     population: 107394,
-    flag: 'https://flagcdn.com/w320/ab.png',
+    flag: 'https://restcountries.eu/data/abw.svg',
     currency: 'Aruban florin',
   },
   {

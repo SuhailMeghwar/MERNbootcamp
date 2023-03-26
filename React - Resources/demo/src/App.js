@@ -25,6 +25,31 @@ import { useState, useEffect } from 'react';
 
 
 export default function App() {
+  
+//   const function_use = useCallback(
+//     function_non_memoized,
+//     [second],
+//   )
+
+
+//   useMemo(() => first, [second])
+  
+
+
+// let name = "some name"
+
+//   print(name)
+
+
+const [state, setState] = useState({});
+// name = "dfdfs"
+
+
+
+
+
+
+
   const [count, setCount] = useState(111);
 
   console.log("before use effect")

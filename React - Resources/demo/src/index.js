@@ -4,12 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Component } from './revision';
+import { DataFetchingComponent, PageReload } from './revision';
+import { Callbackhook } from './todoApp';
+import { MyMap } from './MyMap';
+import { Counter } from './useState';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App/>
+ <Counter/>
   </React.StrictMode>
 );
 

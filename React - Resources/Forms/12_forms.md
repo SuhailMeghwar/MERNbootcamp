@@ -49,11 +49,11 @@ Other HTML fields to get data from a form are textarea and select with options e
 </select>
 ```
 
-Now, you know most of the fields we need to get data from a form. Let's start with an input with type text field. Previously, we saw different types of events and for today we will focus on more of _onChange_ event type which triggers whenever an input field data changes. Input field has by default a memory to store input data but in this section we control that using state and we implement a controlled input.
+Now, you know most of the fields we need to get data from a form. Let's start with an input with type text field. Previously, we saw different types of events and for today we will focus on more of _onChange_ event type which triggers whenever an input field data changes. 
 
 ## Getting data from an input field
 
-So far we did not get any data from input field. Now, it is time to learn how to get data from an input field. We need an input field, event listener (onChange) and state to get data from a controlled input. See the example below. The h1 element below the input tag display what we write on the input. 
+ We need an input field, event listener (onChange) and state to get data from a controlled input. See the example below. The h1 element below the input tag display what we write on the input. 
 
 The input element has many attributes such as value, name, id, placeholder, type and event handler. Look at the example give below.
 
@@ -96,7 +96,7 @@ We usually use form to handle user information. Let us move to form section and 
 
 ## Getting multiple input data from form
 
-Now we will develop a small form which collect user information. In addition to that we will have event listener for the form (onSubmit) and for the inputs (onChange). See the following example try to see the commonts too. [demo](https://codepen.io/Asabeneh/full/eYNvJda).
+Now we will develop a small form which collect user information. In addition to that we will have event listener for the form (onSubmit) and for the inputs (onChange). See the following example try to see the commonts too.
 
 ```js
 import React, { useState } from 'react';
@@ -332,7 +332,7 @@ class App extends React.Component {
       country,
       gender,
       bio,
-    } = this.state
+    } = state
     return (
       <div className='App'>
         <h3>Add Student</h3>
